@@ -1,0 +1,22 @@
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:23:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ClientNode::Send(int64_t)[m[K’
+   23 | void [01;31m[KClientNode[m[K::Send(int64_t input)
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:23:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ClientNode::Send(int64_t)[m[K’
+In file included from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:2[m[K:
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/include/homework2_2_pkg/homework2_2_pkg_client.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ClientNode[m[K’ defined here
+    7 | class [01;36m[KClientNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:55:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ClientNode[m[K’ {aka ‘[01m[Kclass ClientNode[m[K’} has no member named ‘[01m[KSend[m[K’
+   55 |     node->[01;31m[KSend[m[K(input_value);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:[m[K In member function ‘[01m[Kvoid Server::Callback(std::shared_ptr<tutorial_interfaces::srv::Plus_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Plus_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:27:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<tutorial_interfaces::srv::Plus2>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<tutorial_interfaces::srv::Plus2>[m[K’} has no member named ‘[01m[Kasync_Send[m[K’
+   27 |     auto future = client_->[01;31m[Kasync_Send[m[K(server2_request,
+      |                            [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

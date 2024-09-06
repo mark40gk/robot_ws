@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target final_server[0m
+[0.070s] [ 33%] Built target client
+[0.075s] [ 66%] Built target final_server
+[0.077s] [ 83%] [32mBuilding CXX object CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o[0m
+[1.428s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:[m[K In member function ‘[01m[Kvoid Server::Callback(std::shared_ptr<tutorial_interfaces::srv::Plus_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Plus_Response_<std::allocator<void> > >)[m[K’:
+[1.428s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<tutorial_interfaces::srv::Plus2>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<tutorial_interfaces::srv::Plus2>[m[K’} has no member named ‘[01m[Kasync_Send[m[K’
+[1.428s]    28 |     auto future = client_->[01;31m[Kasync_Send[m[K(server2_request,
+[1.428s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[1.849s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o] Error 1
+[1.849s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server.dir/all] Error 2
+[1.849s] gmake: *** [Makefile:146: all] Error 2
+[1.852s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

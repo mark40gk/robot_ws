@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.071s] [ 16%] [32mBuilding CXX object CMakeFiles/final_server.dir/src/homework2_2_pkg_final_server.cpp.o[0m
+[0.075s] [ 50%] Built target server
+[0.077s] [ 83%] Built target client
+[0.079s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_final_server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Khomework2_2_pkg/homework2_2_pkg_final_server.hpp: No such file or directory
+[0.079s]     1 | #include [01;31m[K"homework2_2_pkg/homework2_2_pkg_final_server.hpp"[m[K
+[0.080s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.080s] compilation terminated.
+[0.080s] gmake[2]: *** [CMakeFiles/final_server.dir/build.make:76: CMakeFiles/final_server.dir/src/homework2_2_pkg_final_server.cpp.o] Error 1
+[0.080s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/final_server.dir/all] Error 2
+[0.081s] gmake: *** [Makefile:146: all] Error 2
+[0.084s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

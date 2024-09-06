@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target final_server[0m
+[0.075s] [ 33%] Built target server
+[0.077s] [ 66%] Built target client
+[0.081s] [ 83%] [32mBuilding CXX object CMakeFiles/final_server.dir/src/homework2_2_pkg_final_server.cpp.o[0m
+[2.070s] [100%] [32m[1mLinking CXX executable final_server[0m
+[2.167s] [100%] Built target final_server
+[2.175s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[2.214s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg
+[2.221s] -- Install configuration: ""
+[2.222s] -- Installing: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/server
+[2.222s] -- Set runtime path of "/home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/server" to ""
+[2.222s] -- Installing: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/client
+[2.223s] -- Set runtime path of "/home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/client" to ""
+[2.223s] -- Installing: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/final_server
+[2.223s] -- Set runtime path of "/home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/final_server" to ""
+[2.223s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/package_run_dependencies/homework2_2_pkg
+[2.223s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/parent_prefix_path/homework2_2_pkg
+[2.223s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/ament_prefix_path.sh
+[2.223s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/ament_prefix_path.dsv
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/path.sh
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/path.dsv
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.bash
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.sh
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.zsh
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.dsv
+[2.224s] -- Installing: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.dsv
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/packages/homework2_2_pkg
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/cmake/homework2_2_pkgConfig.cmake
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/cmake/homework2_2_pkgConfig-version.cmake
+[2.224s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.xml
+[2.225s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg

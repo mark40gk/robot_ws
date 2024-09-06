@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.073s] [ 50%] [32m[1mLinking CXX executable dynamixel[0m
+[0.111s] /usr/bin/ld: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o: in function `main':
+[0.111s] homework3_pkg_trydynamixel.cpp:(.text+0x250): undefined reference to `dynamixel::PortHandler::getPortHandler(char const*)'
+[0.111s] /usr/bin/ld: homework3_pkg_trydynamixel.cpp:(.text+0x263): undefined reference to `dynamixel::PacketHandler::getPacketHandler(float)'
+[0.113s] collect2: error: ld returned 1 exit status
+[0.114s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:151: dynamixel] Error 1
+[0.114s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.114s] gmake: *** [Makefile:146: all] Error 2
+[0.119s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

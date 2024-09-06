@@ -1,0 +1,169 @@
+[0.009s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.068s] [ 16%] [32mBuilding CXX object CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o[0m
+[0.071s] [ 50%] Built target server
+[0.073s] [ 83%] Built target final_server
+[1.413s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[KClientNode[m[K’ does not name a type
+[1.413s]     6 | [01;31m[KClientNode[m[K::ClientNode(const std::string &node_name)
+[1.413s]       | [01;31m[K^~~~~~~~~~[m[K
+[1.413s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:23:6:[m[K [01;31m[Kerror: [m[K‘[01m[KClientNode[m[K’ has not been declared
+[1.413s]    23 | void [01;31m[KClientNode[m[K::send_request(int64_t input)
+[1.413s]       |      [01;31m[K^~~~~~~~~~[m[K
+[1.416s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In function ‘[01m[Kvoid send_request(int64_t)[m[K’:
+[1.416s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.416s]    28 |     auto future = [01;31m[Kclient_[m[K->async_send_request(request,
+[1.416s]       |                   [01;31m[K^~~~~~~[m[K
+[1.416s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:29:10:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.416s]    29 |         [[01;31m[Kthis[m[K](rclcpp::Client<tutorial_interfaces::srv::Plus>::SharedFuture future_response) {
+[1.416s]       |          [01;31m[K^~~~[m[K
+[1.443s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.443s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.443s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In lambda function:
+[1.443s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.443s]    31 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.443s]       |                             [01;31m[K^~~~[m[K
+[1.443s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.443s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.443s]    31 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.443s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.443s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.444s]    31 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.444s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.444s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.444s]    31 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.444s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.444s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.444s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.444s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.444s]    31 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.444s]       |                             [01;31m[K^~~~[m[K
+[1.444s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:31:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.444s]    31 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received response: %ld", future_response.get()->output);
+[1.444s]       |                             [01;31m[K^~~~[m[K
+[1.444s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.444s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.444s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.444s]    33 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to receive response");
+[1.444s]       |                              [01;31m[K^~~~[m[K
+[1.444s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.445s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.445s]    33 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to receive response");
+[1.445s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.445s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.445s]    33 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to receive response");
+[1.445s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.445s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.445s]    33 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to receive response");
+[1.445s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.445s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.445s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.445s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.445s]    33 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to receive response");
+[1.445s]       |                              [01;31m[K^~~~[m[K
+[1.445s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.445s]    33 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to receive response");
+[1.445s]       |                              [01;31m[K^~~~[m[K
+[1.447s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In function ‘[01m[Kvoid send_request(int64_t)[m[K’:
+[1.447s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:38:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_from_this[m[K’ was not declared in this scope
+[1.447s]    38 |     if (rclcpp::spin_until_future_complete([01;31m[Kshared_from_this[m[K(), future) != rclcpp::FutureReturnCode::SUCCESS)
+[1.447s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.447s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.448s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.448s]    40 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to call service");
+[1.448s]       |                      [01;31m[K^~~~[m[K
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.448s]    40 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to call service");
+[1.448s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.448s]    40 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to call service");
+[1.448s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.448s]    40 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to call service");
+[1.448s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.448s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.448s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.448s]    40 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to call service");
+[1.448s]       |                      [01;31m[K^~~~[m[K
+[1.448s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:40:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.448s]    40 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to call service");
+[1.448s]       |                      [01;31m[K^~~~[m[K
+[1.450s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.451s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:54:34:[m[K [01;31m[Kerror: [m[K‘[01m[KClientNode[m[K’ was not declared in this scope
+[1.451s]    54 |     auto node = std::make_shared<[01;31m[KClientNode[m[K>("value1_client");
+[1.451s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[1.451s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:54:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [14])[m[K’
+[1.451s]    54 |     auto node = [01;31m[Kstd::make_shared<ClientNode>("value1_client")[m[K;
+[1.451s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.451s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.451s]                  from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:1[m[K:
+[1.451s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.451s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.451s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.451s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.451s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:54:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.451s]    54 |     auto node = [01;31m[Kstd::make_shared<ClientNode>("value1_client")[m[K;
+[1.451s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.713s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o] Error 1
+[1.713s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/client.dir/all] Error 2
+[1.714s] gmake: *** [Makefile:146: all] Error 2
+[1.716s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

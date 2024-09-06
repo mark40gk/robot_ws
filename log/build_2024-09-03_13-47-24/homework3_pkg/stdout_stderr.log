@@ -1,0 +1,68 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/sorce.dir/src/Motor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:1[m[K:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::getch()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   39 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::kbhit()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:44:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   44 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:50:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KportHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |   dynamixel::PortHandler *[01;35m[KportHandler[m[K = dynamixel::PortHandler::getPortHandler(DEVICENAME);
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:51:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpacketHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |   dynamixel::PacketHandler *[01;35m[KpacketHandler[m[K = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+      |                             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:47:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 | void Activate ([01;35m[Kint value[m[K, int dxl_id)
+      |                [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:47:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdxl_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 | void Activate (int value, [01;35m[Kint dxl_id[m[K)
+      |                           [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:[m[K In function ‘[01m[Kvoid Activate(int, int)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:59:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |   int [01;35m[Kindex[m[K = 0;
+      |       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::getch()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   39 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::kbhit()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:44:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   44 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:50:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KportHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |   dynamixel::PortHandler *[01;35m[KportHandler[m[K = dynamixel::PortHandler::getPortHandler(DEVICENAME);
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:51:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpacketHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |   dynamixel::PacketHandler *[01;35m[KpacketHandler[m[K = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+      |                             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:47:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 | void Activate ([01;35m[Kint value[m[K, int dxl_id)
+      |                [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:47:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdxl_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 | void Activate (int value, [01;35m[Kint dxl_id[m[K)
+      |                           [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:[m[K In function ‘[01m[Kint kbhit()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:51:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   51 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 75%] [32m[1mLinking CXX executable sorce[0m
+[100%] [32m[1mLinking CXX executable dynamixel[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/sorce.dir/build.make:152: sorce] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sorce.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[100%] Built target dynamixel
+gmake: *** [Makefile:146: all] Error 2

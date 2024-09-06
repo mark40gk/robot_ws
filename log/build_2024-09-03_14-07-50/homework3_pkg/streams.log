@@ -1,0 +1,205 @@
+[0.006s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target sorce[0m
+[0.046s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/sorce.dir/src/Motor.cpp.o[0m
+[0.051s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.051s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Khomework3_pkg_trydynamixel[m[K’ does not name a type
+[0.052s]     1 | [01;31m[Khomework3_pkg_trydynamixel[m[K.cpp
+[0.052s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.052s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.052s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dynamixel.dir/all] Error 2
+[0.052s] gmake[1]: *** Waiting for unfinished jobs....
+[0.056s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:1[m[K:
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Khomework3_pkg_trydynamixel[m[K’ does not name a type
+[0.056s]     1 | [01;31m[Khomework3_pkg_trydynamixel[m[K.cpp
+[0.056s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ has not been declared
+[0.056s]    22 | int [01;31m[KMotor[m[K::kbhit()
+[0.056s]       |     [01;31m[K^~~~~[m[K
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:[m[K In function ‘[01m[Kint kbhit()[m[K’:
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:25:20:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kkbhit()::termios oldt[m[K’ has incomplete type and cannot be defined
+[0.056s]    25 |     struct termios [01;31m[Koldt[m[K, newt;
+[0.056s]       |                    [01;31m[K^~~~[m[K
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:25:26:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kkbhit()::termios newt[m[K’ has incomplete type and cannot be defined
+[0.056s]    25 |     struct termios oldt, [01;31m[Knewt[m[K;
+[0.056s]       |                          [01;31m[K^~~~[m[K
+[0.056s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSTDIN_FILENO[m[K’ was not declared in this scope
+[0.057s]    29 |     tcgetattr([01;31m[KSTDIN_FILENO[m[K, &oldt);
+[0.057s]       |               [01;31m[K^~~~~~~~~~~~[m[K
+[0.057s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcgetattr[m[K’ was not declared in this scope
+[0.057s]    29 |     [01;31m[Ktcgetattr[m[K(STDIN_FILENO, &oldt);
+[0.057s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.057s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[KICANON[m[K’ was not declared in this scope
+[0.057s]    31 |     newt.c_lflag &= ~([01;31m[KICANON[m[K | ECHO);
+[0.057s]       |                       [01;31m[K^~~~~~[m[K
+[0.057s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:31:32:[m[K [01;31m[Kerror: [m[K‘[01m[KECHO[m[K’ was not declared in this scope
+[0.057s]    31 |     newt.c_lflag &= ~(ICANON | [01;31m[KECHO[m[K);
+[0.057s]       |                                [01;31m[K^~~~[m[K
+[0.058s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:32:29:[m[K [01;31m[Kerror: [m[K‘[01m[KTCSANOW[m[K’ was not declared in this scope
+[0.058s]    32 |     tcsetattr(STDIN_FILENO, [01;31m[KTCSANOW[m[K, &newt);
+[0.058s]       |                             [01;31m[K^~~~~~~[m[K
+[0.058s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcsetattr[m[K’ was not declared in this scope
+[0.058s]    32 |     [01;31m[Ktcsetattr[m[K(STDIN_FILENO, TCSANOW, &newt);
+[0.058s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.058s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:33:32:[m[K [01;31m[Kerror: [m[K‘[01m[KF_GETFL[m[K’ was not declared in this scope
+[0.058s]    33 |     oldf = fcntl(STDIN_FILENO, [01;31m[KF_GETFL[m[K, 0);
+[0.058s]       |                                [01;31m[K^~~~~~~[m[K
+[0.059s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:33:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfcntl[m[K’ was not declared in this scope
+[0.059s]    33 |     oldf = [01;31m[Kfcntl[m[K(STDIN_FILENO, F_GETFL, 0);
+[0.059s]       |            [01;31m[K^~~~~[m[K
+[0.059s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[KF_SETFL[m[K’ was not declared in this scope
+[0.059s]    34 |     fcntl(STDIN_FILENO, [01;31m[KF_SETFL[m[K, oldf | O_NONBLOCK);
+[0.059s]       |                         [01;31m[K^~~~~~~[m[K
+[0.059s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:34:41:[m[K [01;31m[Kerror: [m[K‘[01m[KO_NONBLOCK[m[K’ was not declared in this scope
+[0.059s]    34 |     fcntl(STDIN_FILENO, F_SETFL, oldf | [01;31m[KO_NONBLOCK[m[K);
+[0.059s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[0.059s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:36:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetchar[m[K’ was not declared in this scope
+[0.059s]    36 |     ch = [01;31m[Kgetchar[m[K();
+[0.059s]       |          [01;31m[K^~~~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kgetchar[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.060s]     1 | #include "homework3_pkg/homework3_pkg_trydynamixel.hpp"
+[0.060s]   +++ |+[32m[K#include <cstdio>[m[K
+[0.060s]     2 | 
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:41:15:[m[K [01;31m[Kerror: [m[K‘[01m[KEOF[m[K’ was not declared in this scope
+[0.060s]    41 |     if (ch != [01;31m[KEOF[m[K)
+[0.060s]       |               [01;31m[K^~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:41:15:[m[K [01;36m[Knote: [m[K‘[01m[KEOF[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstdin[m[K’ was not declared in this scope
+[0.060s]    43 |         ungetc(ch, [01;31m[Kstdin[m[K);
+[0.060s]       |                    [01;31m[K^~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:43:20:[m[K [01;36m[Knote: [m[K‘[01m[Kstdin[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kungetc[m[K’ was not declared in this scope
+[0.060s]    43 |         [01;31m[Kungetc[m[K(ch, stdin);
+[0.060s]       |         [01;31m[K^~~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:[m[K At global scope:
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:54:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ has not been declared
+[0.060s]    54 | void [01;31m[KMotor[m[K::Activate(int value, int dxl_id)
+[0.060s]       |      [01;31m[K^~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:[m[K In function ‘[01m[Kvoid Activate(int, int)[m[K’:
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel[m[K’ has not been declared
+[0.060s]    56 |     [01;31m[Kdynamixel[m[K::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler(DEVICENAME);
+[0.060s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:56:29:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ was not declared in this scope
+[0.060s]    56 |     dynamixel::PortHandler *[01;31m[KportHandler[m[K = dynamixel::PortHandler::getPortHandler(DEVICENAME);
+[0.060s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[0.060s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:56:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel[m[K’ has not been declared
+[0.061s]    56 |     dynamixel::PortHandler *portHandler = [01;31m[Kdynamixel[m[K::PortHandler::getPortHandler(DEVICENAME);
+[0.061s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:56:82:[m[K [01;31m[Kerror: [m[K‘[01m[KDEVICENAME[m[K’ was not declared in this scope
+[0.061s]    56 |     dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler([01;31m[KDEVICENAME[m[K);
+[0.061s]       |                                                                                  [01;31m[K^~~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel[m[K’ has not been declared
+[0.061s]    57 |     [01;31m[Kdynamixel[m[K::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+[0.061s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:57:31:[m[K [01;31m[Kerror: [m[K‘[01m[KpacketHandler[m[K’ was not declared in this scope
+[0.061s]    57 |     dynamixel::PacketHandler *[01;31m[KpacketHandler[m[K = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+[0.061s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:57:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel[m[K’ has not been declared
+[0.061s]    57 |     dynamixel::PacketHandler *packetHandler = [01;31m[Kdynamixel[m[K::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+[0.061s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:57:90:[m[K [01;31m[Kerror: [m[K‘[01m[KPROTOCOL_VERSION[m[K’ was not declared in this scope
+[0.061s]    57 |     dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler([01;31m[KPROTOCOL_VERSION[m[K);
+[0.061s]       |                                                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.061s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:59:27:[m[K [01;31m[Kerror: [m[K‘[01m[KCOMM_TX_FAIL[m[K’ was not declared in this scope
+[0.062s]    59 |     int dxl_comm_result = [01;31m[KCOMM_TX_FAIL[m[K;
+[0.062s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8_t[m[K’ was not declared in this scope
+[0.062s]    62 |     [01;31m[Kuint8_t[m[K dxl_error = 0;
+[0.062s]       |     [01;31m[K^~~~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[0.062s]     1 | #include "homework3_pkg/homework3_pkg_trydynamixel.hpp"
+[0.062s]   +++ |+[32m[K#include <cstdint>[m[K
+[0.062s]     2 | 
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16_t[m[K’ was not declared in this scope
+[0.062s]    63 |     [01;31m[Kuint16_t[m[K dxl_present_position = 0;
+[0.062s]       |     [01;31m[K^~~~~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:63:5:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t[m[K’ is defined in header ‘[01m[K<cstdint>[m[K’; did you forget to ‘[01m[K#include <cstdint>[m[K’?
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.062s]    68 |         [01;31m[Kprintf[m[K("Succeeded to open the port!\n");
+[0.062s]       |         [01;31m[K^~~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:68:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.062s]    72 |         [01;31m[Kprintf[m[K("Failed to open the port!\n");
+[0.062s]       |         [01;31m[K^~~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:72:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetch[m[K’ was not declared in this scope
+[0.062s]    74 |         [01;31m[Kgetch[m[K();
+[0.062s]       |         [01;31m[K^~~~~[m[K
+[0.062s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:79:34:[m[K [01;31m[Kerror: [m[K‘[01m[KBAUDRATE[m[K’ was not declared in this scope
+[0.062s]    79 |     if (portHandler->setBaudRate([01;31m[KBAUDRATE[m[K))
+[0.062s]       |                                  [01;31m[K^~~~~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.063s]    81 |         [01;31m[Kprintf[m[K("Succeeded to change the baudrate!\n");
+[0.063s]       |         [01;31m[K^~~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:81:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.063s]    85 |         [01;31m[Kprintf[m[K("Failed to change the baudrate!\n");
+[0.063s]       |         [01;31m[K^~~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:85:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetch[m[K’ was not declared in this scope
+[0.063s]    87 |         [01;31m[Kgetch[m[K();
+[0.063s]       |         [01;31m[K^~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:92:74:[m[K [01;31m[Kerror: [m[K‘[01m[KADDR_MX_TORQUE_ENABLE[m[K’ was not declared in this scope
+[0.063s]    92 |     dxl_comm_result = packetHandler->write1ByteTxRx(portHandler, dxl_id, [01;31m[KADDR_MX_TORQUE_ENABLE[m[K, TORQUE_ENABLE, &dxl_error);
+[0.063s]       |                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:92:97:[m[K [01;31m[Kerror: [m[K‘[01m[KTORQUE_ENABLE[m[K’ was not declared in this scope
+[0.063s]    92 |     dxl_comm_result = packetHandler->write1ByteTxRx(portHandler, dxl_id, ADDR_MX_TORQUE_ENABLE, [01;31m[KTORQUE_ENABLE[m[K, &dxl_error);
+[0.063s]       |                                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[0.063s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:92:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_error[m[K’ was not declared in this scope
+[0.063s]    92 |     dxl_comm_result = packetHandler->write1ByteTxRx(portHandler, dxl_id, ADDR_MX_TORQUE_ENABLE, TORQUE_ENABLE, &[01;31m[Kdxl_error[m[K);
+[0.064s]       |                                                                                                                 [01;31m[K^~~~~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:93:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCOMM_SUCCESS[m[K’ was not declared in this scope
+[0.064s]    93 |     if (dxl_comm_result != [01;31m[KCOMM_SUCCESS[m[K)
+[0.064s]       |                            [01;31m[K^~~~~~~~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.064s]    95 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getTxRxResult(dxl_comm_result));
+[0.064s]       |         [01;31m[K^~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:95:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.064s]    99 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getRxPacketError(dxl_error));
+[0.064s]       |         [01;31m[K^~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:99:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:103:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.064s]   103 |         [01;31m[Kprintf[m[K("Dynamixel has been successfully connected\n");
+[0.064s]       |         [01;31m[K^~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:103:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:107:74:[m[K [01;31m[Kerror: [m[K‘[01m[KADDR_MX_GOAL_POSITION[m[K’ was not declared in this scope
+[0.064s]   107 |     dxl_comm_result = packetHandler->write2ByteTxRx(portHandler, dxl_id, [01;31m[KADDR_MX_GOAL_POSITION[m[K, dxl_goal_position, &dxl_error);
+[0.064s]       |                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.064s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:108:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCOMM_SUCCESS[m[K’ was not declared in this scope
+[0.065s]   108 |     if (dxl_comm_result != [01;31m[KCOMM_SUCCESS[m[K)
+[0.065s]       |                            [01;31m[K^~~~~~~~~~~~[m[K
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.065s]   110 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getTxRxResult(dxl_comm_result));
+[0.065s]       |         [01;31m[K^~~~~~[m[K
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:110:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:114:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.065s]   114 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getRxPacketError(dxl_error));
+[0.065s]       |         [01;31m[K^~~~~~[m[K
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:114:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:118:73:[m[K [01;31m[Kerror: [m[K‘[01m[KADDR_MX_PRESENT_POSITION[m[K’ was not declared in this scope
+[0.065s]   118 |     dxl_comm_result = packetHandler->read2ByteTxRx(portHandler, dxl_id, [01;31m[KADDR_MX_PRESENT_POSITION[m[K, &dxl_present_position, &dxl_error);
+[0.065s]       |                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.065s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:118:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_present_position[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_goal_position[m[K’?
+[0.065s]   118 |     dxl_comm_result = packetHandler->read2ByteTxRx(portHandler, dxl_id, ADDR_MX_PRESENT_POSITION, &[01;31m[Kdxl_present_position[m[K, &dxl_error);
+[0.065s]       |                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.065s]       |                                                                                                    [32m[Kdxl_goal_position[m[K
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:119:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCOMM_SUCCESS[m[K’ was not declared in this scope
+[0.066s]   119 |     if (dxl_comm_result != [01;31m[KCOMM_SUCCESS[m[K)
+[0.066s]       |                            [01;31m[K^~~~~~~~~~~~[m[K
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.066s]   121 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getTxRxResult(dxl_comm_result));
+[0.066s]       |         [01;31m[K^~~~~~[m[K
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:121:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.066s]   125 |         [01;31m[Kprintf[m[K("%s\n", packetHandler->getRxPacketError(dxl_error));
+[0.066s]       |         [01;31m[K^~~~~~[m[K
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:125:9:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.066s]   128 |     [01;31m[Kprintf[m[K("[ID:%03d] GoalPos:%03d\n", dxl_id, dxl_goal_position);
+[0.066s]       |     [01;31m[K^~~~~~[m[K
+[0.066s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/Motor.cpp:128:5:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.066s] gmake[2]: *** [CMakeFiles/sorce.dir/build.make:76: CMakeFiles/sorce.dir/src/Motor.cpp.o] Error 1
+[0.067s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sorce.dir/all] Error 2
+[0.067s] gmake: *** [Makefile:146: all] Error 2
+[0.068s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

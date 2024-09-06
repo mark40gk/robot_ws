@@ -1,0 +1,53 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework2_2_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework2_2_pkg
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.457s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.481s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.484s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.533s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.631s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.743s] -- Looking for pthread.h - found
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.810s] -- Found Threads: TRUE  
+[0.849s] -- Found tutorial_interfaces: 0.0.0 (/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.911s] -- Configuring done
+[0.919s] -- Generating done
+[0.920s] -- Build files have been written to: /home/tkdals/robot_ws/build/homework2_2_pkg
+[0.926s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework2_2_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework2_2_pkg
+[0.928s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.972s] [ 16%] [32mBuilding CXX object CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o[0m
+[0.972s] [ 33%] [32mBuilding CXX object CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o[0m
+[0.973s] [ 50%] [32mBuilding CXX object CMakeFiles/final_server.dir/src/homework2_2_pkg_final_server.cpp.o[0m
+[1.094s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_final_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Khomework2_2_pkg/homework2_2_pkg_final_server.hpp: No such file or directory
+[1.094s]     3 | #include [01;31m[K"homework2_2_pkg/homework2_2_pkg_final_server.hpp"[m[K
+[1.094s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.094s] compilation terminated.
+[1.098s] gmake[2]: *** [CMakeFiles/final_server.dir/build.make:76: CMakeFiles/final_server.dir/src/homework2_2_pkg_final_server.cpp.o] Error 1
+[1.099s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/final_server.dir/all] Error 2
+[1.099s] gmake[1]: *** Waiting for unfinished jobs....
+[3.099s] [ 66%] [32m[1mLinking CXX executable client[0m
+[3.209s] [ 66%] Built target client
+[3.478s] [ 83%] [32m[1mLinking CXX executable server[0m
+[3.603s] [ 83%] Built target server
+[3.604s] gmake: *** [Makefile:146: all] Error 2
+[3.606s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

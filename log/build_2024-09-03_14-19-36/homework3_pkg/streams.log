@@ -1,0 +1,13 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target motor[0m
+[0.054s] [ 50%] Built target motor
+[0.054s] [ 75%] [32m[1mLinking CXX executable dynamixel[0m
+[0.111s] /usr/bin/ld: CMakeFiles/dynamixel.dir/src/homework3_pkg_main.cpp.o: in function `main':
+[0.111s] homework3_pkg_main.cpp:(.text+0x4c): undefined reference to `Motor::Activate(int, int)'
+[0.112s] /usr/bin/ld: homework3_pkg_main.cpp:(.text+0xa4): undefined reference to `Motor::Activate(int, int)'
+[0.112s] /usr/bin/ld: homework3_pkg_main.cpp:(.text+0xfc): undefined reference to `Motor::Activate(int, int)'
+[0.114s] collect2: error: ld returned 1 exit status
+[0.115s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:152: dynamixel] Error 1
+[0.115s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dynamixel.dir/all] Error 2
+[0.116s] gmake: *** [Makefile:146: all] Error 2
+[0.117s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/sorce.dir/src/Motor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable sorce[0m
+[100%] [32m[1mLinking CXX executable dynamixel[0m
+[100%] Built target dynamixel

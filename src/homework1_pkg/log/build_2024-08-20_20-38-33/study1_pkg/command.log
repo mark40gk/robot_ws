@@ -1,0 +1,2 @@
+Invoking command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/study1_pkg
+Invoked command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/study1_pkg

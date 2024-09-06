@@ -1,0 +1,8 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/study1_pkg/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/cpp_pubsub
+[0.012s] [31mCMake Error at CMakeLists.txt:23:
+[0.012s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.012s]   "//추가한".
+[0.012s] 
+[0.012s] [0m
+[0.012s] -- Configuring incomplete, errors occurred!
+[0.013s] Invoked command in '/home/tkdals/robot_ws/study1_pkg/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/cpp_pubsub

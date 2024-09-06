@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.069s] [ 33%] Built target final_server
+[0.072s] [ 66%] Built target client
+[0.075s] [ 83%] [32mBuilding CXX object CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o[0m
+[1.405s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:64:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[1.405s]    64 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[1.405s]       |     [01;31m[K^~~~[m[K
+[1.405s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:54:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[1.405s]    54 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[1.405s]       |     [01;36m[K^~~~[m[K
+[1.847s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o] Error 1
+[1.847s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server.dir/all] Error 2
+[1.847s] gmake: *** [Makefile:146: all] Error 2
+[1.849s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

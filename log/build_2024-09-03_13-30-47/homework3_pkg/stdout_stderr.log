@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target dynamixel[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:5:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ was not declared in this scope
+    5 |     [01;31m[KMotor[m[K dynamixel;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:7:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+    7 |     std::thread f1(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[1]), 1);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:7:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+    7 |     std::thread f1(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[1]), 1);
+      |                                                [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+    8 |     std::thread f2(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[2]), 2);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:8:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+    8 |     std::thread f2(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[2]), 2);
+      |                                                [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:9:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+    9 |     std::thread f3(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[3]), 3);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:9:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+    9 |     std::thread f3(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[3]), 3);
+      |                                                [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

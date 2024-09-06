@@ -1,0 +1,2 @@
+Invoking command in '/home/tkdals/robot_ws/build/dynamixel_sdk': /usr/bin/cmake /home/tkdals/robot_ws/src/dynamixel_sdk/ros/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/dynamixel_sdk
+Invoked command in '/home/tkdals/robot_ws/build/dynamixel_sdk' returned '1': /usr/bin/cmake /home/tkdals/robot_ws/src/dynamixel_sdk/ros/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/dynamixel_sdk

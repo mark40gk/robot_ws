@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework3_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework3_pkg
+[0.025s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.190s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.190s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.191s]   before
+[0.191s] Call Stack (most recent call first):
+[0.191s]   CMakeLists.txt:28 (ament_target_dependencies)
+[0.191s] 
+[0.191s] [0m
+[0.191s] -- Configuring incomplete, errors occurred!
+[0.191s] See also "/home/tkdals/robot_ws/build/homework3_pkg/CMakeFiles/CMakeOutput.log".
+[0.193s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework3_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework3_pkg

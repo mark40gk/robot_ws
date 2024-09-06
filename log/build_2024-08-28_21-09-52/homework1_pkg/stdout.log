@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target listener2[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target listener2
+[ 66%] Built target listener
+[100%] Built target talker

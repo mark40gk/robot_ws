@@ -1,0 +1,1 @@
+Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/ex_cilent_server_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/ex_client_server_pkg

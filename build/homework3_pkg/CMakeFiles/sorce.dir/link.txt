@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsorce.a CMakeFiles/sorce.dir/src/Motor.cpp.o
+/usr/bin/ranlib libsorce.a

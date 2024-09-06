@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target dynamixel[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dynamixel[0m
+/usr/bin/ld: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o: in function `main':
+homework3_pkg_trydynamixel.cpp:(.text+0x250): undefined reference to `dynamixel::PortHandler::getPortHandler(char const*)'
+/usr/bin/ld: homework3_pkg_trydynamixel.cpp:(.text+0x263): undefined reference to `dynamixel::PacketHandler::getPacketHandler(float)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:151: dynamixel] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

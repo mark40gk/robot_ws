@@ -1,0 +1,12 @@
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/uninstall.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/homework2_2_pkg_uninstall.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/server.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/client.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/final_server.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/test.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/edit_cache.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/rebuild_cache.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/list_install_components.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/install.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/install/local.dir
+/home/tkdals/robot_ws/build/homework2_2_pkg/CMakeFiles/install/strip.dir

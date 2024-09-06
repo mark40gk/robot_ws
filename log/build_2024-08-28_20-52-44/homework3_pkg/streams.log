@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.105s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:39[m[K:
+[0.105s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/dynamixel_sdk.h:29:10:[m[K [01;31m[Kfatal error: [m[Kgroup_sync_write.h: No such file or directory
+[0.105s]    29 | #include [01;31m[K"group_sync_write.h"[m[K
+[0.105s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.105s] compilation terminated.
+[0.106s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.106s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.106s] gmake: *** [Makefile:146: all] Error 2
+[0.115s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

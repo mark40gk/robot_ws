@@ -1,0 +1,7 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/tkdals/robot_ws/src/tutorial_interfaces:srv/Plus.srv",
+    "/home/tkdals/robot_ws/src/tutorial_interfaces:srv/Plus2.srv"
+  ]
+}

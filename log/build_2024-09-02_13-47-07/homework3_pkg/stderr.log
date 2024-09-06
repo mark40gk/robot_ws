@@ -1,0 +1,28 @@
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:126:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  126 |     return [01;31m[K0[m[K;
+      |            [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:215:10:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  215 |   return [01;31m[K0[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:94:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   94 |   int [01;35m[Kindex[m[K = 0;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:224:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotor::Motor(long long int)[m[K’
+  224 | Motor(atoll(argv[1])[01;31m[K)[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Motor::Motor()[m[K’
+   37 | class [01;36m[KMotor[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Motor::Motor(const Motor&)[m[K’
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong long int[m[K’ to ‘[01m[Kconst Motor&[m[K’
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Motor::Motor(Motor&&)[m[K’
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong long int[m[K’ to ‘[01m[KMotor&&[m[K’
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:222:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  222 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

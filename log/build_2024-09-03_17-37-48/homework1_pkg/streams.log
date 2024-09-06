@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/tkdals/robot_ws/build/homework1_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework1_pkg -- -j20 -l20
+[0.072s] [ 33%] Built target talker
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/homework1_sub1.cpp.o[0m
+[0.078s] [ 83%] Built target listener2
+[5.213s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.473s] [100%] Built target listener
+[5.484s] Invoked command in '/home/tkdals/robot_ws/build/homework1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework1_pkg -- -j20 -l20
+[5.514s] Invoking command in '/home/tkdals/robot_ws/build/homework1_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework1_pkg
+[5.522s] -- Install configuration: ""
+[5.522s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/lib/homework1_pkg/talker
+[5.522s] -- Installing: /home/tkdals/robot_ws/install/homework1_pkg/lib/homework1_pkg/listener
+[5.525s] -- Set runtime path of "/home/tkdals/robot_ws/install/homework1_pkg/lib/homework1_pkg/listener" to ""
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/lib/homework1_pkg/listener2
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/ament_index/resource_index/package_run_dependencies/homework1_pkg
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/ament_index/resource_index/parent_prefix_path/homework1_pkg
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/environment/ament_prefix_path.sh
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/environment/ament_prefix_path.dsv
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/environment/path.sh
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/environment/path.dsv
+[5.525s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/local_setup.bash
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/local_setup.sh
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/local_setup.zsh
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/local_setup.dsv
+[5.526s] -- Installing: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.dsv
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/ament_index/resource_index/packages/homework1_pkg
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/cmake/homework1_pkgConfig.cmake
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/cmake/homework1_pkgConfig-version.cmake
+[5.526s] -- Up-to-date: /home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.xml
+[5.528s] Invoked command in '/home/tkdals/robot_ws/build/homework1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework1_pkg

@@ -1,0 +1,32 @@
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   37 | class Motor: public [01;31m[Krclcpp[m[K::Node
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+   37 | class Motor: public rclcpp::[01;31m[KNode[m[K
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:39:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   39 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:39:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kprivate[m[K’
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:38:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   38 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:87:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+   87 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:219:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  219 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:225:21:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Motor[m[K’
+  225 | Motor(atoll(argv[1])[01;31m[K)[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:37:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Motor[m[K’
+   37 | class [01;36m[KMotor[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:223:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  223 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,547 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x751f2143e710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x751f2143e140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x751f2143e140>>, mixin_verb=('build',))
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.152s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tkdals/robot_ws'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_cilent_server_pkg) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ex_cilent_server_pkg' with type 'ros.ament_cmake' and name 'ex_client_server_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework1_pkg) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/homework1_pkg' with type 'ros.ament_cmake' and name 'homework1_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework2_2_pkg) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/homework2_2_pkg' with type 'ros.ament_cmake' and name 'homework2_2_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/homework3_pkg) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/homework3_pkg' with type 'ros.ament_cmake' and name 'homework3_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/study2_pkg/src) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tkdals/robot_ws/install
+[0.182s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_target' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ex_client_server_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'ex_client_server_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/ex_client_server_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/ex_client_server_pkg', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/ex_cilent_server_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_target' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'homework1_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'homework1_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/homework1_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/homework1_pkg', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/homework1_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.210s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_target' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework2_2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.210s] DEBUG:colcon.colcon_core.verb:Building package 'homework2_2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/homework2_2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/homework2_2_pkg', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/homework2_2_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_target' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'homework3_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.210s] DEBUG:colcon.colcon_core.verb:Building package 'homework3_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tkdals/robot_ws/build/homework3_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tkdals/robot_ws/install/homework3_pkg', 'merge_install': False, 'path': '/home/tkdals/robot_ws/src/homework3_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.210s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.211s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.211s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/dynamixel_sdk' with build type 'ament_cmake'
+[0.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/dynamixel_sdk'
+[0.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/tutorial_interfaces'
+[0.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/ex_cilent_server_pkg' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/ex_cilent_server_pkg'
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/homework1_pkg' with build type 'ament_cmake'
+[0.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/homework1_pkg'
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/dynamixel_sdk -- -j20 -l20
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/tutorial_interfaces -- -j20 -l20
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/ex_client_server_pkg -- -j20 -l20
+[0.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework1_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework1_pkg -- -j20 -l20
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/dynamixel_sdk -- -j20 -l20
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/ex_client_server_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/ex_client_server_pkg -- -j20 -l20
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework1_pkg -- -j20 -l20
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/ex_client_server_pkg
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/dynamixel_sdk
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework1_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework1_pkg
+[0.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_client_server_pkg)
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/ex_client_server_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/ex_client_server_pkg
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg' for CMake module files
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg' for CMake config files
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_client_server_pkg', 'cmake_prefix_path')
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.sh'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/bin'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/pkgconfig/ex_client_server_pkg.pc'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/python3.10/site-packages'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/bin'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.sh'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.bash'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.zsh'
+[0.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/ex_client_server_pkg/share/colcon-core/packages/ex_client_server_pkg)
+[0.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework1_pkg)
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg' for CMake module files
+[0.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework1_pkg
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg' for CMake config files
+[0.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework1_pkg', 'cmake_prefix_path')
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.dsv'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.sh'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/bin'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib/pkgconfig/homework1_pkg.pc'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib/python3.10/site-packages'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/bin'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.bash'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.zsh'
+[0.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework1_pkg/share/colcon-core/packages/homework1_pkg)
+[0.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk' for CMake module files
+[0.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/dynamixel_sdk
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk' for CMake config files
+[0.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib'
+[0.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/bin'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/bin'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[0.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[0.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_client_server_pkg)
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg' for CMake module files
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg' for CMake config files
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_client_server_pkg', 'cmake_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/hook/cmake_prefix_path.sh'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/bin'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/pkgconfig/ex_client_server_pkg.pc'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/python3.10/site-packages'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/ex_client_server_pkg/bin'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.bash'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.zsh'
+[0.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/ex_client_server_pkg/share/colcon-core/packages/ex_client_server_pkg)
+[0.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework1_pkg)
+[0.368s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg' for CMake module files
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg' for CMake config files
+[0.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework1_pkg', 'cmake_prefix_path')
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.dsv'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/hook/cmake_prefix_path.sh'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/bin'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib/pkgconfig/homework1_pkg.pc'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/lib/python3.10/site-packages'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework1_pkg/bin'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.ps1'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.sh'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.bash'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework1_pkg/share/homework1_pkg/package.zsh'
+[0.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework1_pkg/share/colcon-core/packages/homework1_pkg)
+[0.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk' for CMake module files
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk' for CMake config files
+[0.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib'
+[0.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/bin'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/dynamixel_sdk/bin'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[0.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[0.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/homework3_pkg' with build type 'ament_cmake'
+[0.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/homework3_pkg'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/tutorial_interfaces -- -j20 -l20
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/tutorial_interfaces
+[0.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces' for CMake module files
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/tutorial_interfaces
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces' for CMake config files
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib'
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/bin'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces' for CMake module files
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces' for CMake config files
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib'
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/tutorial_interfaces/bin'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tkdals/robot_ws/src/homework2_2_pkg' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tkdals/robot_ws/src/homework2_2_pkg'
+[0.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework3_pkg
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework3_pkg)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg' for CMake module files
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework3_pkg
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework3_pkg', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib/pkgconfig/homework3_pkg.pc'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework3_pkg/share/colcon-core/packages/homework3_pkg)
+[0.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework2_2_pkg)
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg' for CMake module files
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg' for CMake config files
+[0.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework2_2_pkg', 'cmake_prefix_path')
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.sh'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/bin'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib/pkgconfig/homework2_2_pkg.pc'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib/python3.10/site-packages'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/bin'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework2_2_pkg/share/colcon-core/packages/homework2_2_pkg)
+[0.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework3_pkg)
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg' for CMake module files
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg' for CMake config files
+[0.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework3_pkg', 'cmake_prefix_path')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/hook/cmake_prefix_path.sh'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/bin'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib/pkgconfig/homework3_pkg.pc'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/lib/python3.10/site-packages'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework3_pkg/bin'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.sh'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.bash'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.zsh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework3_pkg/share/colcon-core/packages/homework3_pkg)
+[0.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(homework2_2_pkg)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg' for CMake config files
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('homework2_2_pkg', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib/pkgconfig/homework2_2_pkg.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/lib/python3.10/site-packages'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/tkdals/robot_ws/install/homework2_2_pkg/bin'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.bash'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.zsh'
+[0.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tkdals/robot_ws/install/homework2_2_pkg/share/colcon-core/packages/homework2_2_pkg)
+[0.783s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.783s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.783s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.783s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.787s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.800s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tkdals/robot_ws/install/local_setup.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tkdals/robot_ws/install/_local_setup_util_ps1.py'
+[0.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tkdals/robot_ws/install/setup.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tkdals/robot_ws/install/local_setup.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tkdals/robot_ws/install/_local_setup_util_sh.py'
+[0.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tkdals/robot_ws/install/setup.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tkdals/robot_ws/install/local_setup.bash'
+[0.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tkdals/robot_ws/install/setup.bash'
+[0.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tkdals/robot_ws/install/local_setup.zsh'
+[0.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tkdals/robot_ws/install/setup.zsh'

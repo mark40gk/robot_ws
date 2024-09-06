@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target dynamixel[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.250s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:94:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.250s]    94 |   int [01;35m[Kindex[m[K = 0;
+[0.250s]       |       [01;35m[K^~~~~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:10:31:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[0.250s]    10 | std::thread([01;31m[Kdynamixel.Activate(atoll(argv[1]),1)[m[K);
+[0.250s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:11:31:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[0.250s]    11 | std::thread([01;31m[Kdynamixel.Activate(atoll(argv[2]),2)[m[K);
+[0.250s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:12:31:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[0.250s]    12 | std::thread([01;31m[Kdynamixel.Activate(atoll(argv[3]),3)[m[K);
+[0.250s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:15:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kvoid[m[K’
+[0.250s]    15 | [01;31m[Kdynamixel.Activate(atoll(argv[1]),1)[m[K.join();
+[0.250s]       | [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:16:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kvoid[m[K’
+[0.251s]    16 | [01;31m[Kdynamixel.Activate(atoll(argv[2]),2)[m[K.join();
+[0.251s]       | [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:17:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kvoid[m[K’
+[0.251s]    17 | [01;31m[Kdynamixel.Activate(atoll(argv[3]),3)[m[K.join();
+[0.251s]       | [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.251s]     4 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.251s]       |          [01;35m[K~~~~^~~~[m[K
+[0.277s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.277s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.277s] gmake: *** [Makefile:146: all] Error 2
+[0.278s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

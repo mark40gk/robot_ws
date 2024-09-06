@@ -1,0 +1,16 @@
+/home/tkdals/robot_ws/install/homework3_pkg/lib/homework3_pkg/dynamixel
+/home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/package_run_dependencies/homework3_pkg
+/home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/parent_prefix_path/homework3_pkg
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/ament_prefix_path.sh
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/ament_prefix_path.dsv
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/path.sh
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/path.dsv
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.bash
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.sh
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.zsh
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.dsv
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.dsv
+/home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/packages/homework3_pkg
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/cmake/homework3_pkgConfig.cmake
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/cmake/homework3_pkgConfig-version.cmake
+/home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.xml

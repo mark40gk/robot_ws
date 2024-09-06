@@ -1,0 +1,7 @@
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::Send(int64_t)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<tutorial_interfaces::srv::Plus>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<tutorial_interfaces::srv::Plus>[m[K’} has no member named ‘[01m[Kasync_Send[m[K’
+   28 |     auto future = client_->[01;31m[Kasync_Send[m[K(request,
+      |                            [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

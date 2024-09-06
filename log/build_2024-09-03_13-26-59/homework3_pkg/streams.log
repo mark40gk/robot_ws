@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.094s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.094s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:25:[m[K [01;35m[Kwarning: [m[K"TORQUE_ENABLE" redefined
+[0.094s]    25 | #define TORQUE_ENABLE                   1                   // Value for enabling the torque
+[0.094s]       | 
+[0.094s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.094s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:12:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.094s]    12 | #define TORQUE_ENABLE           24                  // Control table address is different in Dynamixel model
+[0.094s]       | 
+[0.094s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.094s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:60:2:[m[K [01;31m[Kerror: [m[Kempty character constant
+[0.094s]    60 | }[01;31m[K''[m[K
+[0.094s]       |  [01;31m[K^~[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:60:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[0.250s]    60 | }[01;31m[K'[m[K'
+[0.250s]       |  [01;31m[K^[m[K
+[0.250s]       |  [32m[K;[m[K
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::getch()[m[K’:
+[0.250s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:43:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.251s]    43 | [01;35m[K}[m[K
+[0.251s]       | [01;35m[K^[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kint Motor::kbhit()[m[K’:
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:48:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.251s]    48 | [01;35m[K}[m[K
+[0.251s]       | [01;35m[K^[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:54:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KportHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.251s]    54 |   dynamixel::PortHandler *[01;35m[KportHandler[m[K = dynamixel::PortHandler::getPortHandler(DEVICENAME);
+[0.251s]       |                           [01;35m[K^~~~~~~~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:55:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpacketHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.251s]    55 |   dynamixel::PacketHandler *[01;35m[KpacketHandler[m[K = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
+[0.251s]       |                             [01;35m[K^~~~~~~~~~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:51:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.251s]    51 | void Activate ([01;35m[Kint value[m[K, int dxl_id)
+[0.251s]       |                [01;35m[K~~~~^~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:51:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdxl_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.251s]    51 | void Activate (int value, [01;35m[Kint dxl_id[m[K)
+[0.251s]       |                           [01;35m[K~~~~^~~~~~[m[K
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K At global scope:
+[0.251s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:60:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '\x0'
+[0.251s]    60 | }[01;31m[K''[m[K
+[0.251s]       |  [01;31m[K^~[m[K
+[0.276s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.276s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.276s] gmake: *** [Makefile:146: all] Error 2
+[0.278s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

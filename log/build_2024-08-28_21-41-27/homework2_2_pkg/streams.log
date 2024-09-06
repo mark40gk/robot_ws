@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': AMENT_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk PYTHONPATH=/home/tkdals/robot_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.054s] [ 33%] Built target final_server
+[0.055s] [ 66%] Built target client
+[0.055s] [100%] Built target server
+[0.067s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': AMENT_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk PYTHONPATH=/home/tkdals/robot_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.102s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': AMENT_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk PYTHONPATH=/home/tkdals/robot_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/server
+[0.110s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/client
+[0.110s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/lib/homework2_2_pkg/final_server
+[0.110s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/package_run_dependencies/homework2_2_pkg
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/parent_prefix_path/homework2_2_pkg
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/path.sh
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/environment/path.dsv
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.bash
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.sh
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.zsh
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/local_setup.dsv
+[0.111s] -- Installing: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.dsv
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/ament_index/resource_index/packages/homework2_2_pkg
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/cmake/homework2_2_pkgConfig.cmake
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/cmake/homework2_2_pkgConfig-version.cmake
+[0.111s] -- Up-to-date: /home/tkdals/robot_ws/install/homework2_2_pkg/share/homework2_2_pkg/package.xml
+[0.112s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '0': AMENT_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk PYTHONPATH=/home/tkdals/robot_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework2_2_pkg

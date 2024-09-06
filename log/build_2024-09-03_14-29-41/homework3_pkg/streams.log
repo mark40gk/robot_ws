@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.061s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_main.cpp.o[0m
+[0.063s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_motor.cpp.o[0m
+[0.192s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.192s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_main.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.192s]     3 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.193s]       |          [01;35m[K~~~~^~~~[m[K
+[0.199s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:[m[K In member function ‘[01m[Kint Motor::Getch()[m[K’:
+[0.199s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:12:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGetchar[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetchar[m[K’?
+[0.199s]    12 |   ch = [01;31m[KGetchar[m[K();
+[0.199s]       |        [01;31m[K^~~~~~~[m[K
+[0.199s]       |        [32m[Kgetchar[m[K
+[0.200s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:[m[K In member function ‘[01m[Kint Motor::Kbhit()[m[K’:
+[0.200s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:34:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGetchar[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetchar[m[K’?
+[0.200s]    34 |   ch = [01;31m[KGetchar[m[K();
+[0.200s]       |        [01;31m[K^~~~~~~[m[K
+[0.200s]       |        [32m[Kgetchar[m[K
+[0.201s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[0.201s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:56:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.201s]    56 |   int [01;35m[Kindex[m[K = 0;
+[0.201s]       |       [01;35m[K^~~~~[m[K
+[0.211s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:[m[K In member function ‘[01m[Kint Motor::Kbhit()[m[K’:
+[0.211s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_motor.cpp:48:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.211s]    48 | [01;35m[K}[m[K
+[0.211s]       | [01;35m[K^[m[K
+[0.212s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:90: CMakeFiles/dynamixel.dir/src/homework3_pkg_motor.cpp.o] Error 1
+[0.212s] gmake[2]: *** Waiting for unfinished jobs....
+[0.243s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.244s] gmake: *** [Makefile:146: all] Error 2
+[0.245s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

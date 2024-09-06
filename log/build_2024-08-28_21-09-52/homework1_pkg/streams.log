@@ -1,0 +1,7 @@
+[0.011s] Invoking command in '/home/tkdals/robot_ws/build/homework1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework1_pkg -- -j20 -l20
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target listener2[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.062s] [ 33%] Built target listener2
+[0.065s] [ 66%] Built target listener
+[0.066s] [100%] Built target talker

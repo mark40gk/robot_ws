@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target dynamixel[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:5:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ was not declared in this scope
+[0.179s]     5 |     [01;31m[KMotor[m[K dynamixel;
+[0.179s]       |     [01;31m[K^~~~~[m[K
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:7:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+[0.179s]     7 |     std::thread f1(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[1]), 1);
+[0.179s]       |                     [01;31m[K^~~~~[m[K
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:7:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.179s]     7 |     std::thread f1(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[1]), 1);
+[0.179s]       |                                                [01;31m[K^[m[K
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+[0.180s]     8 |     std::thread f2(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[2]), 2);
+[0.180s]       |                     [01;31m[K^~~~~[m[K
+[0.180s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:8:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.180s]     8 |     std::thread f2(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[2]), 2);
+[0.180s]       |                                                [01;31m[K^[m[K
+[0.180s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:9:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotor[m[K’ is not a class, namespace, or enumeration
+[0.180s]     9 |     std::thread f3(&[01;31m[KMotor[m[K::Activate, &dynamixel, atoll(argv[3]), 3);
+[0.180s]       |                     [01;31m[K^~~~~[m[K
+[0.180s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:9:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.180s]     9 |     std::thread f3(&Motor::Activate, &dynamixel[01;31m[K,[m[K atoll(argv[3]), 3);
+[0.180s]       |                                                [01;31m[K^[m[K
+[0.180s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.180s]     3 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.180s]       |          [01;35m[K~~~~^~~~[m[K
+[0.194s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.194s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.194s] gmake: *** [Makefile:146: all] Error 2
+[0.196s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Khomework3_pkg/dynamixel_sdk.h: No such file or directory
+    8 | #include [01;31m[K"homework3_pkg/dynamixel_sdk.h"[m[K                                  // Uses Dynamixel SDK library
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

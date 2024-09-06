@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/tkdals/robot_ws/build/dynamixel_sdk': /usr/bin/cmake /home/tkdals/robot_ws/src/dynamixel_sdk/ros/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/dynamixel_sdk
+[0.020s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.020s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.020s]   CMake.
+[0.020s] 
+[0.020s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.020s]   CMake that the project does not need compatibility with older versions.
+[0.020s] 
+[0.020s] [0m
+[0.029s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.029s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.029s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.029s]   CMake did not find one.
+[0.029s] 
+[0.029s]   Could not find a package configuration file provided by "catkin" with any
+[0.029s]   of the following names:
+[0.029s] 
+[0.029s]     catkinConfig.cmake
+[0.029s]     catkin-config.cmake
+[0.029s] 
+[0.029s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.029s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.029s]   provides a separate development package or SDK, be sure it has been
+[0.029s]   installed.
+[0.029s] 
+[0.029s] [0m
+[0.029s] -- Configuring incomplete, errors occurred!
+[0.029s] See also "/home/tkdals/robot_ws/build/dynamixel_sdk/CMakeFiles/CMakeOutput.log".
+[0.030s] Invoked command in '/home/tkdals/robot_ws/build/dynamixel_sdk' returned '1': /usr/bin/cmake /home/tkdals/robot_ws/src/dynamixel_sdk/ros/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/dynamixel_sdk

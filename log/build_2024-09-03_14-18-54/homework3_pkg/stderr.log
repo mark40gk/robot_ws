@@ -1,0 +1,17 @@
+/usr/bin/ld: CMakeFiles/dynamixel.dir/src/homework3_pkg_main.cpp.o: in function `main':
+homework3_pkg_main.cpp:(.text+0x4c): undefined reference to `Motor::Activate(int, int)'
+/usr/bin/ld: homework3_pkg_main.cpp:(.text+0xa4): undefined reference to `Motor::Activate(int, int)'
+/usr/bin/ld: homework3_pkg_main.cpp:(.text+0xfc): undefined reference to `Motor::Activate(int, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:152: dynamixel] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dynamixel.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/motor.cpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/motor.cpp:59:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |   int [01;35m[Kindex[m[K = 0;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/motor.cpp:[m[K In member function ‘[01m[Kint Motor::kbhit()[m[K’:
+[01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/motor.cpp:51:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   51 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake: *** [Makefile:146: all] Error 2

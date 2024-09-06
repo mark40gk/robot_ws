@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.179s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:1[m[K:
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:[m[K In member function ‘[01m[Kvoid Motor::Activate(int, int)[m[K’:
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/homework3_pkg_trydynamixel.hpp:89:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.179s]    89 |   int [01;35m[Kindex[m[K = 0;
+[0.179s]       |       [01;35m[K^~~~~[m[K
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.179s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.179s]     4 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.179s]       |          [01;35m[K~~~~^~~~[m[K
+[0.211s] [100%] [32m[1mLinking CXX executable dynamixel[0m
+[0.281s] [100%] Built target dynamixel
+[0.290s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.333s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework3_pkg
+[0.348s] -- Install configuration: ""
+[0.348s] -- Installing: /home/tkdals/robot_ws/install/homework3_pkg/lib/homework3_pkg/dynamixel
+[0.348s] -- Set runtime path of "/home/tkdals/robot_ws/install/homework3_pkg/lib/homework3_pkg/dynamixel" to ""
+[0.348s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/package_run_dependencies/homework3_pkg
+[0.348s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/parent_prefix_path/homework3_pkg
+[0.348s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/ament_prefix_path.sh
+[0.348s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/ament_prefix_path.dsv
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/path.sh
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/environment/path.dsv
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.bash
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.sh
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.zsh
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/local_setup.dsv
+[0.349s] -- Installing: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.dsv
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/ament_index/resource_index/packages/homework3_pkg
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/cmake/homework3_pkgConfig.cmake
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/cmake/homework3_pkgConfig-version.cmake
+[0.349s] -- Up-to-date: /home/tkdals/robot_ws/install/homework3_pkg/share/homework3_pkg/package.xml
+[0.352s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/tkdals/robot_ws/install/dynamixel_sdk:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework3_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg LD_LIBRARY_PATH=/home/tkdals/robot_ws/install/dynamixel_sdk/lib:/home/tkdals/robot_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/tkdals/robot_ws/build/homework3_pkg

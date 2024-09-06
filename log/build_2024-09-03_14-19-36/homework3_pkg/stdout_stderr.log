@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target motor[0m
+[ 50%] Built target motor
+[ 75%] [32m[1mLinking CXX executable dynamixel[0m
+/usr/bin/ld: CMakeFiles/dynamixel.dir/src/homework3_pkg_main.cpp.o: in function `main':
+homework3_pkg_main.cpp:(.text+0x4c): undefined reference to `Motor::Activate(int, int)'
+/usr/bin/ld: homework3_pkg_main.cpp:(.text+0xa4): undefined reference to `Motor::Activate(int, int)'
+/usr/bin/ld: homework3_pkg_main.cpp:(.text+0xfc): undefined reference to `Motor::Activate(int, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:152: dynamixel] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dynamixel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

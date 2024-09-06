@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework3_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework3_pkg
+[0.025s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.194s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.198s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.205s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.358s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.402s] -- Looking for pthread.h
+[0.470s] -- Looking for pthread.h - found
+[0.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.525s] -- Found Threads: TRUE  
+[0.565s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.612s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.612s] -- Configured cppcheck include dirs: /home/tkdals/robot_ws/src/homework3_pkg/include
+[0.612s] -- Configured cppcheck exclude dirs and/or files: 
+[0.613s] -- Added test 'lint_cmake' to check CMake code style
+[0.614s] -- Added test 'uncrustify' to check C / C++ code style
+[0.614s] -- Configured uncrustify additional arguments: 
+[0.614s] -- Added test 'xmllint' to check XML markup files
+[0.615s] -- Configuring done
+[0.620s] -- Generating done
+[0.620s] -- Build files have been written to: /home/tkdals/robot_ws/build/homework3_pkg
+[0.625s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/homework3_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/homework3_pkg
+[0.626s] Invoking command in '/home/tkdals/robot_ws/build/homework3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20
+[0.666s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o[0m
+[0.688s] In file included from [01m[K/home/tkdals/robot_ws/src/homework3_pkg/src/homework3_pkg_trydynamixel.cpp:39[m[K:
+[0.688s] [01m[K/home/tkdals/robot_ws/src/homework3_pkg/include/homework3_pkg/dynamixel_sdk.hpp:26:10:[m[K [01;31m[Kfatal error: [m[Kgroup_bulk_read.h: No such file or directory
+[0.688s]    26 | #include [01;31m[K"group_bulk_read.h"[m[K
+[0.688s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.688s] compilation terminated.
+[0.688s] gmake[2]: *** [CMakeFiles/dynamixel.dir/build.make:76: CMakeFiles/dynamixel.dir/src/homework3_pkg_trydynamixel.cpp.o] Error 1
+[0.689s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel.dir/all] Error 2
+[0.689s] gmake: *** [Makefile:146: all] Error 2
+[0.690s] Invoked command in '/home/tkdals/robot_ws/build/homework3_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework3_pkg -- -j20 -l20

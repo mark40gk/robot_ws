@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/study1_pkg
+[0.020s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.175s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.176s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.252s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.326s] -- Configuring done
+[0.333s] -- Generating done
+[0.334s] -- Build files have been written to: /home/tkdals/robot_ws/study1_pkg/build/study1_pkg
+[0.339s] Invoked command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/study1_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/study1_pkg/install/study1_pkg
+[0.340s] Invoking command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/study1_pkg/build/study1_pkg -- -j20 -l20
+[0.387s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub1.cpp.o[0m
+[0.388s] [ 33%] [32mBuilding CXX object CMakeFiles/listener2.dir/src/sub2.cpp.o[0m
+[0.389s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[3.091s] [ 66%] [32m[1mLinking CXX executable talker[0m
+[3.214s] [ 66%] Built target talker
+[5.384s] [ 83%] [32m[1mLinking CXX executable listener2[0m
+[5.556s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.633s] [100%] Built target listener2
+[5.797s] [100%] Built target listener
+[5.807s] Invoked command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/study1_pkg/build/study1_pkg -- -j20 -l20
+[5.855s] Invoking command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/study1_pkg/build/study1_pkg
+[5.863s] -- Install configuration: ""
+[5.863s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/talker
+[5.865s] -- Set runtime path of "/home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/talker" to ""
+[5.865s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/listener
+[5.868s] -- Set runtime path of "/home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/listener" to ""
+[5.868s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/listener2
+[5.870s] -- Set runtime path of "/home/tkdals/robot_ws/study1_pkg/install/study1_pkg/lib/study1_pkg/listener2" to ""
+[5.870s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/ament_index/resource_index/package_run_dependencies/study1_pkg
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/ament_index/resource_index/parent_prefix_path/study1_pkg
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/environment/ament_prefix_path.sh
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/environment/ament_prefix_path.dsv
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/environment/path.sh
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/environment/path.dsv
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/local_setup.bash
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/local_setup.sh
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/local_setup.zsh
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/local_setup.dsv
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/package.dsv
+[5.871s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/ament_index/resource_index/packages/study1_pkg
+[5.872s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/cmake/study1_pkgConfig.cmake
+[5.872s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/cmake/study1_pkgConfig-version.cmake
+[5.872s] -- Installing: /home/tkdals/robot_ws/study1_pkg/install/study1_pkg/share/study1_pkg/package.xml
+[5.873s] Invoked command in '/home/tkdals/robot_ws/study1_pkg/build/study1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/study1_pkg/build/study1_pkg

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 33%] Built target final_server
+[ 66%] Built target client
+[ 83%] [32mBuilding CXX object CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o[0m
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:64:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+   64 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_server.cpp:54:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+   54 | int [01;36m[Kmain[m[K(int argc, char **argv)
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

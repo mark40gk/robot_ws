@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/tkdals/robot_ws/build/homework2_2_pkg': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.065s] [ 33%] Built target final_server
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o[0m
+[0.066s] [ 83%] Built target server
+[1.372s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::Send(int64_t)[m[K’:
+[1.372s] [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<tutorial_interfaces::srv::Plus>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<tutorial_interfaces::srv::Plus>[m[K’} has no member named ‘[01m[KSend[m[K’
+[1.372s]    28 |     auto future = client_->[01;31m[KSend[m[K(request,
+[1.372s]       |                            [01;31m[K^~~~[m[K
+[1.686s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o] Error 1
+[1.686s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/client.dir/all] Error 2
+[1.686s] gmake: *** [Makefile:146: all] Error 2
+[1.688s] Invoked command in '/home/tkdals/robot_ws/build/homework2_2_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tkdals/robot_ws/install/tutorial_interfaces:/home/tkdals/robot_ws/install/homework2_2_pkg:/home/tkdals/robot_ws/install/homework1_pkg:/home/tkdals/robot_ws/install/ex_client_server_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/homework2_2_pkg -- -j20 -l20

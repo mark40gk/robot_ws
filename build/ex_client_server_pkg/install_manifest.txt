@@ -1,0 +1,17 @@
+/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/server
+/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/client
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/package_run_dependencies/ex_client_server_pkg
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/parent_prefix_path/ex_client_server_pkg
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/ament_prefix_path.sh
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/ament_prefix_path.dsv
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/path.sh
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/path.dsv
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.bash
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.sh
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.zsh
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.dsv
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.dsv
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/packages/ex_client_server_pkg
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/cmake/ex_client_server_pkgConfig.cmake
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/cmake/ex_client_server_pkgConfig-version.cmake
+/home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.xml

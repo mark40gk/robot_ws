@@ -1,0 +1,10 @@
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:45:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass ClientNode[m[K’
+   45 | class [01;31m[KClientNode[m[K : public rclcpp::Node, public std::enable_shared_from_this<ClientNode>
+      |       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/src/homework2_2_pkg_client.cpp:2[m[K:
+[01m[K/home/tkdals/robot_ws/src/homework2_2_pkg/include/homework2_2_pkg/homework2_2_pkg_client.hpp:7:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass ClientNode[m[K’
+    7 | class [01;36m[KClientNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/homework2_2_pkg_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

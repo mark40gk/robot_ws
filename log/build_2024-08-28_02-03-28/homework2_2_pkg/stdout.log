@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[35m[1mConsolidate compiler generated dependencies of target final_server[0m
+[ 33%] Built target client
+[ 66%] Built target final_server
+[ 83%] [32mBuilding CXX object CMakeFiles/server.dir/src/homework2_2_pkg_server.cpp.o[0m

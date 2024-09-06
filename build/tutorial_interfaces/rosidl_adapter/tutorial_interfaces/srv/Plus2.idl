@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/Plus2.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct Plus2_Request {
+      int64 input2;
+    };
+    struct Plus2_Response {
+      int64 output2;
+    };
+  };
+};

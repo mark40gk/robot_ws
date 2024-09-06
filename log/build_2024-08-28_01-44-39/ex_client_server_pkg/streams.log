@@ -1,0 +1,74 @@
+[0.009s] Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/ex_cilent_server_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/ex_client_server_pkg
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.417s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.439s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.488s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.551s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.571s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Looking for pthread.h
+[0.674s] -- Looking for pthread.h - found
+[0.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.730s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.731s] -- Found Threads: TRUE  
+[0.765s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.792s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.840s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.840s] -- Configured cppcheck include dirs: 
+[0.840s] -- Configured cppcheck exclude dirs and/or files: 
+[0.840s] -- Added test 'lint_cmake' to check CMake code style
+[0.840s] -- Added test 'uncrustify' to check C / C++ code style
+[0.840s] -- Configured uncrustify additional arguments: 
+[0.841s] -- Added test 'xmllint' to check XML markup files
+[0.841s] -- Configuring done
+[0.848s] -- Generating done
+[0.849s] -- Build files have been written to: /home/tkdals/robot_ws/build/ex_client_server_pkg
+[0.855s] Invoked command in '/home/tkdals/robot_ws/build/ex_client_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tkdals/robot_ws/src/ex_cilent_server_pkg -DCMAKE_INSTALL_PREFIX=/home/tkdals/robot_ws/install/ex_client_server_pkg
+[0.856s] Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/ex_client_server_pkg -- -j20 -l20
+[0.899s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.901s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[3.499s] [ 75%] [32m[1mLinking CXX executable client[0m
+[3.613s] [100%] [32m[1mLinking CXX executable server[0m
+[3.621s] [100%] Built target client
+[3.715s] [100%] Built target server
+[3.725s] Invoked command in '/home/tkdals/robot_ws/build/ex_client_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tkdals/robot_ws/build/ex_client_server_pkg -- -j20 -l20
+[3.752s] Invoking command in '/home/tkdals/robot_ws/build/ex_client_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/build/ex_client_server_pkg
+[3.759s] -- Install configuration: ""
+[3.759s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/server
+[3.759s] -- Set runtime path of "/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/server" to ""
+[3.760s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/client
+[3.760s] -- Set runtime path of "/home/tkdals/robot_ws/install/ex_client_server_pkg/lib/ex_client_server_pkg/client" to ""
+[3.760s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/package_run_dependencies/ex_client_server_pkg
+[3.760s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/parent_prefix_path/ex_client_server_pkg
+[3.760s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/ament_prefix_path.sh
+[3.760s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/ament_prefix_path.dsv
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/path.sh
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/environment/path.dsv
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.bash
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.sh
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.zsh
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/local_setup.dsv
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.dsv
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ament_index/resource_index/packages/ex_client_server_pkg
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/cmake/ex_client_server_pkgConfig.cmake
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/cmake/ex_client_server_pkgConfig-version.cmake
+[3.761s] -- Installing: /home/tkdals/robot_ws/install/ex_client_server_pkg/share/ex_client_server_pkg/package.xml
+[3.763s] Invoked command in '/home/tkdals/robot_ws/build/ex_client_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tkdals/robot_ws/build/ex_client_server_pkg
